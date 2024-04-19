@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-export default function App({ width = 15, height = 15 }) {
+export default function App({ width = 10, height = 10 }) {
   const [maze, setMaze] = useState([]);
   const [timeoutIds, setTimeoutIds] = useState([]);
 
